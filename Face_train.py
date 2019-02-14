@@ -50,3 +50,4 @@ with open("label.pickle","wb") as f:
 
 recognizer.train(x_train,np.array(y_labels))      #training of using local binary histogram pattern recognition
 recognizer.save("trainner.yml")
+#saved model/classifier parameters into trainner .yml file
