@@ -51,12 +51,10 @@ def detect(gray, frame):
         roi_color = frame[y:y+h, x:x+w]
         id_, conf = recognizer.predict(roi_gray)
         if conf>=45 and conf<=85:
-            if(labels[id_] == 'abbas-ismail'):
+            if(labels[id_] == 'admin'):
                 cnt = 0
-                print('permisible') 
             else:
                 cnt += 1
-                print("not permissible")
     return (frame)
 
 # Doing  Face Recognition with the webcam
