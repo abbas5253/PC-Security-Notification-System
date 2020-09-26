@@ -18,9 +18,9 @@ from twilio.rest import Client
 
 
 
-account_sid = 'AC05a9472b62cc0b37f4929ce5096e103d' 
+account_sid = '' 
 
-auth_token = '38fd7aea7da106bcef08caff39ac5733' 
+auth_token = '' 
 
 
 
